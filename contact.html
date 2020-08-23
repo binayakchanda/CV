@@ -4,24 +4,45 @@
 <head>
   <meta charset="utf-8">
   <title>MY Contact</title>
+  <style>
+  body {
+    background-color: #eeeee;
+    border=10px;
+    font-family:  "Palatino Linotype", serif;
+  }
+
+    hr {
+
+      border-right: 10%;
+    }
+
+
+  </style>
+
 </head>
 
 <body>
-  <h1><ul>MY CONTACT</h1>
+  <h1>
+    <ul>MY CONTACT
+  </h1>
   <hr>
-  
+
   <p>Binayak Chanda</p>
   <p>Silchar, Meherpur</p>
   <p>No- +91-7399414521</p>
   <hr>
 
   <form action="mailto:bChanda73@gmail.com" method="post" enctype="text/plain">
-    <label> Your Name: </label>
-    <input type="text"><br>
-    <br>
-    <label>Email ID- </label>
-    <input type="email" name=""><br>
-    <br>
+  <table>
+    <tr>
+          <td><label> Your Name: </label></td>
+          <td><input type="text"></td>
+    </tr>
+    <tr>
+          <td><label>Email ID: </label></td>
+          <td> <input type="email" name=""></td><br>
+  </table>
+<br>
     <label>Type your message here - </label><br>
     <textarea name="text" id="" cols="30" rows="10"></textarea><br>
 
