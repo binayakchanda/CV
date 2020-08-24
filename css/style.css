@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #145374;
+  background-color: #f6f4e6;
   border: 10px;
   font-family: "Palatino Linotype", serif;
 
@@ -13,6 +13,7 @@ img {
 }
 
 h1 {
+  color: #52575d;
   text-align: center;
   font-family: "Palatino Linotype", serif;
 }
